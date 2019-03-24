@@ -1,0 +1,384 @@
+* {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-seerif;
+
+    /* Use three @media screen tags, each with one of these max-widths: 980px, 768px and 640px. */
+
+}
+
+body {
+    background-color: rgb(228, 226, 226);
+}
+
+header { 
+  
+    width: 100%;
+    height: 90px;
+    border-bottom: 1px solid grey; /*code taken from https://internetingishard.com/html-and-css/css-box-model*/
+    font-family: 'Georgia', Times, serif;
+    background-color:#ffffff;
+}   
+
+header div {
+        width: 960px;
+        margin: 0 auto;
+}
+
+header h1 {
+
+    background-color: #4aaaa5; /*This makes 'Leon Lin' background green'*/
+    color: white; /*Font Color*/
+    padding: 25px;
+    margin: 0;
+}
+
+header h1, nav {
+    display: inline-block; /*inline-block does not add a line-break after element so element can sit next to other elements*/
+    
+}
+
+header h1 {
+        float: left
+}
+
+nav {
+    float: right;
+    font-family: 'Georgia', Times, serif;
+    padding-top: 30px;
+}
+
+header a {
+padding: 15px;
+
+}
+    
+
+section {
+    width: 100%;
+    background-color: rgb(228, 226, 226);
+
+
+}
+
+section div {
+    width: 960px;
+    background-color: white;
+    margin: 0 auto;
+
+
+}
+
+section h2 /*This is the "Portfolio" section*/ 
+    {
+    padding: 15px;
+    background-color:#ffffff;
+    border-bottom: 3px groove lightgray;
+    color: #4aaaa5;
+}
+
+
+#profilepic {
+    height: 20%;
+    width: 20%;
+    float: left;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+
+}
+
+footer div {
+    /* display: table-cell; */
+    clear: both;
+    width: 100%;
+    height: 90px;
+    /* vertical-align: bottom; */
+    text-align: center;
+    background-color: gray;
+    color: white;
+    border-top: 10px solid #4aaaa5;
+
+}
+
+    /* Use three @media screen tags, each with one of these max-widths: 980px, 768px and 640px. */
+    /* 980px, 768px, 640px */
+
+
+@media screen and (max-width: 980px) {
+
+    header { 
+  
+        width: 100%;
+        height: 90px;
+        border-bottom: 1px solid grey; /*code taken from https://internetingishard.com/html-and-css/css-box-model*/
+        font-family: 'Georgia', Times, serif;
+        background-color: rgb(228, 226, 226);
+    }   
+    
+    header div {
+            width: 960px;
+            margin: 0 auto;
+    }
+    
+    header h1 {
+    
+        background-color: #4aaaa5; /*This makes 'Leon Lin' background green'*/
+        color: white; /*Font Color*/
+        padding: 25px;
+        margin: 0;
+    }
+    
+    header h1, nav {
+        display: inline-block; /*inline-block does not add a line-break after element so element can sit next to other elements*/
+        
+    }
+
+  
+    
+    header h1 {
+            float: left
+    }
+    
+    nav {
+        float: right;
+        font-family: 'Georgia', Times, serif;
+        padding-top: 30px;
+    }
+    
+    header a {
+    padding: 15px;
+    
+    }
+
+    .headerwrap {
+        width: 100%;
+        /* display: inline-block; */
+        margin-left: 5.5%;
+      
+    }
+
+    
+    body 
+     /* {background-color: orange;} */
+
+    .fullwrap {
+        position: relative;
+        float: left;
+        border-style: solid;
+        border-color: grey;
+        left: 50px;
+        top: 20px;
+        /* border-color: purple; */
+    
+    }
+
+    .wrapper {
+        background-color: orange;
+        
+
+    }
+    section {
+        width: 70%;
+        
+        background-color: rgb(228, 226, 226);
+        
+    
+    }
+    
+    section div {
+        width: 90%;
+        background-color: yellow;
+        margin: 0 auto;
+    
+    
+    }
+    
+    section h2 /*This is the "Portfolio" section*/ 
+        {
+        padding: 0px;
+        background-color:#ffffff;
+        border-bottom: 3px groove lightgray;
+        color: #4aaaa5;
+    }
+    
+    
+    #profilepic {
+        height: 30%;
+        width: 30%;
+        float: left;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-top: 40px;
+    
+    }
+    
+    footer div {
+        /* display: table-cell; */
+        /* display: inline-block; is super important! it allows you to position the footer */
+        display: inline-block; 
+        position: relative;
+        clear: both;
+        width: 100%;
+        height: 90px;
+        /* vertical-align: bottom; */
+        text-align: center;
+        background-color: gray;
+        color: white;
+        border-top: 10px solid #4aaaa5;
+        /* the below code positions the footer with more space */
+        margin-top: 30%;
+    
+    }
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    header { 
+  
+        width: 100%;
+        height: 90px;
+        border-bottom: 1px solid grey; /*code taken from https://internetingishard.com/html-and-css/css-box-model*/
+        font-family: 'Georgia', Times, serif;
+        background-color: rgb(228, 226, 226);
+    }   
+    
+    header div {
+            /* width: 60px; */
+            margin: 0 auto;
+    }
+    
+    header h1 {
+    
+        background-color: #4aaaa5; /*This makes 'Leon Lin' background green'*/
+        color: white; /*Font Color*/
+        padding: 25px;
+        margin: 0;
+    }
+    
+    header h1, nav {
+        display: inline-block; /*inline-block does not add a line-break after element so element can sit next to other elements*/
+        
+    }
+
+  
+    
+    header h1 {
+            float: left
+    }
+    
+    nav {
+        float: right;
+        font-family: 'Georgia', Times, serif;
+        padding-top: 30px;
+    }
+    
+    header a {
+    padding: 15px;
+    
+    }
+
+    .headerwrap {
+        width: 100%;
+        /* display: inline-block; */
+        margin-left: 5.5%;
+      
+    }
+
+    
+    body {
+        background-color: rgb(228, 226, 226);
+    }
+
+    .fullwrap {
+        position: relative;
+        float: left;
+        border-style: solid;
+        border-color: grey;
+        left: 50px;
+        top: 20px;
+        /* border-color: purple; */
+    
+    }
+
+    .wrapper {
+        background-color: orange;
+        
+
+    }
+    section {
+        width: 100%;
+        
+        background-color: rgb(228, 226, 226);
+        
+    
+    }
+    
+    section div {
+        /* removing the 100% doesnt force the window to be bigger than it should be */
+        /* width: 100%; */
+        background-color: yellow;
+        margin: 0 auto;
+    
+    
+    }
+    
+    section h2 /*This is the "Portfolio" section*/ 
+        {
+        padding: 0px;
+        background-color:#ffffff;
+        border-bottom: 3px groove lightgray;
+        color: #4aaaa5;
+    }
+    
+    
+    #profilepic {
+        height: 30%;
+        width: 30%;
+        float: left;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-top: 40px;
+    
+    }
+    
+    footer div {
+        /* display: table-cell; */
+        /* display: inline-block; is super important! it allows you to position the footer */
+        display: inline-block; 
+        position: relative;
+        clear: both;
+        width: 100%;
+        height: 90px;
+        /* vertical-align: bottom; */
+        text-align: center;
+        background-color: gray;
+        color: white;
+        border-top: 10px solid #4aaaa5;
+        /* the below code positions the footer with more space */
+        margin-top: 30%;
+    
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 640px) {
+ 
+
+    body {
+        background-color: teal;
+    }
+}
+
+
+ 

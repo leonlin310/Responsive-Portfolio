@@ -1,0 +1,128 @@
+* {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-seerif;
+
+}
+
+body {
+    background-color: rgb(228, 226, 226);
+}
+
+
+header { 
+  
+    width: 100%;
+    height: 90px;
+    border-bottom: 1px solid grey; /*code taken from https://internetingishard.com/html-and-css/css-box-model*/
+    font-family: 'Georgia', Times, serif;
+    background-color:#ffffff;
+
+}
+
+header div {
+        width: 960px;
+        margin: 0 auto;
+}
+
+header h1 {
+
+    background-color: #4aaaa5; /*This makes 'Leon Lin' background green'*/
+    color: white; /*Font Color*/
+    padding: 25px;
+    margin: 0;
+}
+
+header h1, nav {
+    display: inline-block; /*inline-block does not add a line-break after element so element can sit next to other elements*/
+    /* background-color: pink; */
+}
+
+header h1 {
+        float: left
+}
+
+nav {
+    float: right;
+    font-family: 'Georgia', Times, serif;
+    padding-top: 30px;
+}
+
+header a {
+padding: 15px;
+
+}
+    
+
+section {
+    width: 100%;
+    background-color: rgb(228, 226, 226);
+
+
+
+}
+
+section input {
+    width: 100%;
+    margin: 0 auto;
+    /* border-style: groove; */
+    /* border: solid grey; */
+    box-sizing: border-box;
+    margin: 0px auto;
+   
+
+}
+
+#buttonmessage {
+    
+    padding-bottom: 60px;
+    box-sizing: border-box;
+    
+}
+
+section div {
+    width: 960px;
+    background-color: white;
+    margin: 0 auto;
+
+
+}
+
+section h2 /*This is the "Contact" section*/ 
+    {
+    color: #4aaaa5;
+    padding: 15px;
+    background-color:#ffffff;
+    border-bottom: 3px groove lightgray;
+}
+
+section h3 /*This is the "Submit" button*/ 
+    {
+    padding: 5px;
+    background-color: #4aaaa5;
+    color: white;
+    border-bottom: 1px solid grey;
+    width: 80px;
+    text-align: center;
+    /* margin-bottom: 50px; */
+}
+
+footer div {
+    /* display: table-cell; */
+    width: 100%;
+    height: 90px;
+    /* vertical-align: bottom; */
+    text-align: center;
+    background-color: gray;
+    color: white;
+    border-top: 10px solid #4aaaa5;
+
+    
+
+}
+
+/* footer div {
+    margin: 0 auto;
+} */
+
+/* .background {
+    background-color: orange;
+} */
