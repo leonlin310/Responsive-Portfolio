@@ -104,7 +104,7 @@ footer div {
     /* 980px, 768px, 640px */
 
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 980px) {  */
 
     header { 
   
@@ -143,6 +143,7 @@ footer div {
         float: right;
         font-family: 'Georgia', Times, serif;
         padding-top: 30px;
+        margin-right: 50px;
     }
     
     header a {
@@ -173,7 +174,7 @@ footer div {
     }
 
     .wrapper {
-        background-color: orange;
+        /* background-color: orange; */
         
 
     }
@@ -187,7 +188,7 @@ footer div {
     
     section div {
         width: 90%;
-        background-color: yellow;
+        /* background-color: yellow; */
         margin: 0 auto;
     
     
@@ -232,7 +233,7 @@ footer div {
     }
 
 
-}
+} 
 
 
 
@@ -277,6 +278,7 @@ footer div {
         float: right;
         font-family: 'Georgia', Times, serif;
         padding-top: 30px;
+        margin-right: 30px;
     }
     
     header a {
@@ -308,7 +310,7 @@ footer div {
     }
 
     .wrapper {
-        background-color: orange;
+        /* background-color: orange; */
         
 
     }
@@ -323,7 +325,7 @@ footer div {
     section div {
         /* removing the 100% doesnt force the window to be bigger than it should be */
         /* width: 100%; */
-        background-color: yellow;
+        /* background-color: yellow; */
         margin: 0 auto;
     
     
@@ -368,17 +370,147 @@ footer div {
     }
 
 
-}
+
 
 
 
 @media screen and (max-width: 640px) {
- 
 
-    body {
-        background-color: teal;
+
+       header { 
+  
+        width: 620px;
+        height: 90px;
+        _border-bottom: 1px solid grey; /*code taken from https://internetingishard.com/html-and-css/css-box-model*/
+        _font-family: 'Georgia', Times, serif;
+        background-color: rgb(228, 226, 226);
+    }   
+    
+    header div {
+            /* width: 60px; */
+            _margin: 0 auto;
     }
+    
+    header h1 {
+    
+        /* background-color: purple; This makes 'Leon Lin' background green' */
+        color: white; /*Font Color*/
+        padding: 25px;
+        margin-left: 18px;
+        width: 520px;
+    }
+    
+    header h1, nav {
+        display: inline-block; /*inline-block does not add a line-break after element so element can sit next to other elements*/
+        
+    }
+
+  
+    
+    header h1 {
+            float: left
+    }
+    
+    nav {
+        float: right;
+        font-family: 'Georgia', Times, serif;
+        padding-top: 30px;
+        text-align: center;
+        margin-right: 200px;
+    }
+
+  
+    
+    header a {
+    padding: 15px;
+    text-align: center;
+    
+    }
+
+    .headerwrap {
+        width: 620px;
+        /* display: inline-block; */
+        margin-left: 5.5%;
+      
+    }
+
+    
+    body {
+        background-color: rgb(228, 226, 226);
+    }
+
+    .fullwrap {
+        position: relative;
+        float: left;
+        border-style: solid;
+        border-color: grey;
+        left: 50px;
+        top: 20px;
+        /* border-color: purple; */
+    
+    }
+
+    .wrapper {
+        /* background-color: orange; */
+        
+
+    }
+    section {
+        width: 620px;
+        
+        background-color: rgb(228, 226, 226);
+        
+    
+    }
+    
+    section div {
+        /* removing the 100% doesnt force the window to be bigger than it should be */
+        /* width: 100%; */
+        /* background-color: yellow; */
+        margin: 0 auto;
+    
+    
+    }
+    
+    section h2 /*This is the "Portfolio" section*/ 
+        {
+        padding: 0px;
+        background-color:#ffffff;
+        border-bottom: 3px groove lightgray;
+        color: #4aaaa5;
+    }
+    
+    
+    #profilepic {
+        height: 30%;
+        width: 30%;
+        float: left;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-top: 40px;
+    
+    }
+    
+    footer div {
+        /* display: table-cell; */
+        /* display: inline-block; is super important! it allows you to position the footer */
+        display: inline-block; 
+        position: relative;
+        clear: both;
+        width: 580px;
+        height: 90px;
+        /* vertical-align: bottom; */
+        text-align: center;
+        background-color: gray;
+        color: white;
+        border-top: 10px solid #4aaaa5;
+        /* the below code positions the footer with more space */
+        margin-top: 30%;
+        margin-left: 50px;
+    
+    }
+
 }
 
 
- 
